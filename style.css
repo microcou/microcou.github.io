@@ -18,9 +18,25 @@ a {
   margin-bottom: 0;
 }
 
+.intro img {
+  float: left;
+  padding-top: 0.5rem;
+}
+
+.intro .title {
+  padding-left: 80px;
+}
+
 .projects h4 {
   display: inline;
 }
 
+.articles ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
 
-
+.articles ul > li {
+  padding-bottom: 0.5rem;
+}
