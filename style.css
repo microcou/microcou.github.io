@@ -14,20 +14,26 @@ a {
   color: #666;
 }
 
+.intro,
+.projects,
+.articles {
+  padding: 1rem 0;
+}
+
 .intro h1 {
   margin-bottom: 0;
 }
 
-.intro img {
+.intro > img {
   float: left;
-  padding-top: 0.5rem;
+  padding-top: 1.5rem;
 }
 
 .intro .title {
   padding-left: 80px;
 }
 
-.projects h4 {
+.projects h3 {
   display: inline;
 }
 
