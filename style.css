@@ -5,28 +5,33 @@ html {
 }
 
 body {
-  padding: 4px;
+  padding: 2rem 4px 8rem;
   max-width: 640px;
   margin: auto;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px)  {
+  body {
+    font-size: 14px;
+  }
 }
 
 a {
   color: #666;
 }
 
-.intro,
-.projects,
-.articles {
-  padding: 1rem 0;
+section {
+  padding-bottom: 3rem;
 }
 
 .intro h1 {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .intro > img {
   float: left;
-  padding-top: 1.5rem;
+  padding-top: 5px;
 }
 
 .intro .title {
