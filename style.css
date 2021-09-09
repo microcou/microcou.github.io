@@ -5,46 +5,55 @@ html {
 }
 
 body {
-  padding: 2rem 4px 8rem;
-  max-width: 640px;
-  margin: auto;
-  font-size: 14px;
+  margin: 0;
+  padding: 2rem 0.5rem 4px;
+  font-size: 15px;
+  background-color: #111;
+  color: #ccc;
 }
 
 @media screen and (max-width: 600px) {
   body {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
+.narrow {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wide {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dimmed {
+  color: #888;
+}
+
 a {
-  color: #666;
+  color: #88d;
 }
 
+header,
 section {
-  padding-bottom: 1rem;
+  margin-bottom: 4rem;
 }
 
-.intro h1 {
+header {
+  display: flex;
+  align-items: flex-end;
+}
+
+header h1 {
   margin: 0;
 }
 
-.intro > img {
-  float: left;
-}
-
-.intro .title {
-  padding-left: 80px;
-}
-
-.projects h3 {
-  display: inline;
-  /* font-weight: normal; */
-  font-size: 1em;
-}
-
-.projects h3:before {
-  /* content: "> "; */
+header img {
+  margin-right: 1rem;
 }
 
 .mylist {
@@ -59,4 +68,34 @@ section {
 
 .mylist > li:before {
   content: "> ";
+}
+
+.projects h2 {
+  margin-bottom: 2rem;
+}
+
+.projects h3 {
+  display: inline;
+}
+
+.projects article {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-bottom: 2rem;
+}
+
+.projects img {
+  max-width: 300px;
+  margin-right: 1rem;
+}
+
+.projects article div {
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 300px;
+}
+
+footer {
+  margin-top: 12rem;
+  text-align: center;
 }

@@ -19,63 +19,92 @@
   </head>
 
   <body>
-    <section class="intro">
+    <header class="narrow">
       <img src="logo2_h47.png" alt="logo" />
-
-      <div class="title">
+      <div>
         <h1>Louis Coulet</h1>
         <a href="mailto:contact@louiscoulet.com">email</a>
         <a href="https://www.linkedin.com/in/coulet/">linked in</a>
         <a href="https://www.malt.fr/profile/louiscoulet">malt</a>
         <a href="https://github.com/microcou">github</a>
       </div>
+    </header>
+
+    <section class="intro narrow">
+      <h2>Your technical partner</h2>
 
       <ul class="mylist">
-        <li>Web developer</li>
-        <li>Fullstack</li>
-        <li>Freelance</li>
-        <li>Your technical partner from A to Z</li>
+        <li>
+          From MVP to the moon!<br />
+          <span class="dimmed">
+            I will assist in production definition, then I will conceive a solution, implement it, deploy it, maintain
+            it, scale it.
+          </span>
+        </li>
+        <li>
+          Web developer fullstack<br />
+          <span class="dimmed">
+            Back: Google Cloud Platform, Firebase, Digital Ocean, NodeJS<br />
+            Front: ReactJS, Material-UI, Chakra-ui<br />
+            API: Shopify, Stripe, Auth0, Algolia
+          </span>
+        </li>
+        <li>Freelance - available for hire</li>
         <li>Don't hesitate to send me an email to discuss your project.</li>
       </ul>
     </section>
 
     <section class="projects">
-      <h2>Selected works</h2>
+      <h2 class="narrow">Selected works</h2>
 
-      <div>
-        <h3>Project under construction (2021)</h3>
-        <p>A backlink catalog for SEO. Built with React.JS, Node.JS, Auth0, Stripe, Digital Ocean.</p>
-      </div>
+      <div class="wide">
+        <article>
+          <img src="resources/screenshot-x1.png" alt="screenshot of X app" />
+          <div>
+            <h3>Project under construction (2021)</h3>
+            <p>A backlink catalog for SEO. Built with React.JS, Node.JS, Auth0, Stripe, Digital Ocean.</p>
+          </div>
+        </article>
 
-      <div>
-        <h3>Kobi (2021)</h3>
-        <a href="https://www.getkobi.fr/">link</a>
-        <p>
-          This is a networking service for Shopify brands. It serves cross-brand recommendations on the checkout page.
-          Built with Firebase, React.JS, and Shopify API.
-        </p>
-      </div>
+        <article>
+          <img src="resources/screenshot-kobi.png" alt="screenshot of Kobi backoffice" />
+          <div>
+            <h3>Kobi (2021)</h3>
+            <a href="https://www.getkobi.fr/">link</a>
+            <p>
+              This is a networking service for Shopify brands. It serves cross-brand recommendations on the checkout
+              page. Built with Firebase, React.JS, and Shopify API.
+            </p>
+          </div>
+        </article>
 
-      <div>
-        <h3>Easypinger (2020)</h3>
-        <a href="https://easypinger.com/">link</a>
-        <p>
-          A web app for monitoring website uptime, SSL certificate, and generate alerts. Built with Firebase and
-          React.JS
-        </p>
-      </div>
+        <article>
+          <img src="resources/screenshot-easypinger.png" alt="screenshot of Easypinger app" />
+          <div>
+            <h3>Easypinger (2020)</h3>
+            <a href="https://easypinger.com/">link</a>
+            <p>
+              A web app for monitoring website uptime, SSL certificate, and generate alerts. Built with Firebase and
+              React.JS
+            </p>
+          </div>
+        </article>
 
-      <div>
-        <h3>Blog Articles in Collections (2020)</h3>
-        <a href="https://apps.shopify.com/blog-articles-in-collection">link</a>
-        <p>
-          A Shopify app for inserting blog snippets into collection pages. Built with Shopify API, React.JS, and Node.JS
-          on Google Cloud Platform.
-        </p>
+        <article>
+          <img src="resources/screenshot-baic.png" alt="screenshot of Blog Collections In Articles backoffice" />
+          <div>
+            <h3>Blog Articles in Collections (2020)</h3>
+            <a href="https://apps.shopify.com/blog-articles-in-collection">link</a>
+            <p>
+              A Shopify app for inserting blog snippets into collection pages. Built with Shopify API, React.JS, and
+              Node.JS on Google Cloud Platform.
+            </p>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section class="articles">
+    <section class="articles narrow">
       <h2>Articles</h2>
       <ul class="mylist">
         <li>
@@ -108,5 +137,7 @@
         </li>
       </ul>
     </section>
+
+    <footer class="dimmed">2020-2021 &copy; Louis Coulet</footer>
   </body>
 </html>
