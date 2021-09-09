@@ -8,12 +8,12 @@ body {
   padding: 2rem 4px 8rem;
   max-width: 640px;
   margin: auto;
-  font-size: 16px;
+  font-size: 14px;
 }
 
-@media screen and (max-width: 600px)  {
+@media screen and (max-width: 600px) {
   body {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -22,7 +22,7 @@ a {
 }
 
 section {
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
 }
 
 .intro h1 {
@@ -31,7 +31,6 @@ section {
 
 .intro > img {
   float: left;
-  padding-top: 5px;
 }
 
 .intro .title {
@@ -40,14 +39,24 @@ section {
 
 .projects h3 {
   display: inline;
+  /* font-weight: normal; */
+  font-size: 1em;
 }
 
-.articles ul {
+.projects h3:before {
+  /* content: "> "; */
+}
+
+.mylist {
   list-style: none;
   padding-left: 0;
   margin-left: 0;
 }
 
-.articles ul > li {
+.mylist > li {
   padding-bottom: 0.5rem;
+}
+
+.mylist > li:before {
+  content: "> ";
 }
