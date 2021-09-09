@@ -40,7 +40,7 @@ a {
 
 header,
 section {
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
 }
 
 header {
@@ -81,12 +81,20 @@ header img {
 .projects article {
   display: flex;
   flex-wrap: wrap-reverse;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
-.projects img {
-  max-width: 300px;
-  margin-right: 1rem;
+.projects article img {
+  max-width: 400px;
+  min-width: 200px;
+  flex-shrink: 1;
+}
+
+/* add right margin to project thumbnail as soon as width permits */
+@media screen and (min-width: 460px) {
+  .projects article img {
+    margin-right: 1rem;
+  }
 }
 
 .projects article div {
@@ -96,6 +104,6 @@ header img {
 }
 
 footer {
-  margin-top: 12rem;
+  margin-top: 16rem;
   text-align: center;
 }
