@@ -8,8 +8,8 @@ body {
   margin: 0;
   padding: 2rem 0.5rem 4px;
   font-size: 15px;
-  /* background-color: #111; */
   color: #ddd;
+  background-color: #111;
   background-image: radial-gradient(#333 1px, #111 1px);
   background-size: 1.5rem 1.5rem;
 }
