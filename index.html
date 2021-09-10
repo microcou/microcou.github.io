@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Louis Coulet</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="modal-style.css" />
     <meta name="description" content="Full-stack web developer, freelance" />
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LWC0VR53L8"></script>
     <script>
@@ -59,48 +60,51 @@
 
       <div class="wide">
         <article>
-          <img src="resources/screenshot-x1-w400.png" alt="screenshot of X app" />
+          <img src="resources/screenshot-x1-w400.png" alt="The frontend of X" />
           <div>
             <h3>Project under construction (2021)</h3>
-            <p>A backlink catalog for SEO. Built with React.JS, Node.JS, Auth0, Stripe, Digital Ocean.</p>
+            <p>A backlink catalog for SEO.</p>
           </div>
         </article>
 
         <article>
-          <img src="resources/screenshot-kobi-w400.png" alt="screenshot of Kobi backoffice" />
+          <img src="resources/screenshot-kobi2-w400.png" alt="The backoffice of Kobi" />
           <div>
             <h3>Kobi (2021)</h3>
             <a href="https://www.getkobi.fr/">link</a>
             <p>
-              This is a networking service for Shopify brands. It serves cross-brand recommendations on the checkout
-              page. Built with Firebase, React.JS, and Shopify API.
+              This is a networking service for Shopify shops. It serves cross-brand recommendations on the checkout
+              page, and collects conversion data for analytics.
             </p>
           </div>
         </article>
 
         <article>
-          <img src="resources/screenshot-easypinger-w400.png" alt="screenshot of Easypinger app" />
+          <img src="resources/screenshot-easypinger2-w400.png" alt="The frontend of Easypinger" />
           <div>
             <h3>Easypinger (2020)</h3>
             <a href="https://easypinger.com/">link</a>
             <p>
-              A web app for monitoring website uptime, SSL certificate, and generate alerts. Built with Firebase and
-              React.JS
+              A web app for monitoring website uptime and SSL certificate validity, and generate notifications upon
+              incident.
             </p>
           </div>
         </article>
 
         <article>
-          <img src="resources/screenshot-baic-w400.png" alt="screenshot of Blog Collections In Articles backoffice" />
+          <img src="resources/screenshot-baic-w400.png" alt="The backoffice of Blog Collections In Articles" />
           <div>
             <h3>Blog Articles in Collections (2020)</h3>
             <a href="https://apps.shopify.com/blog-articles-in-collection">link</a>
-            <p>
-              A Shopify app for inserting blog snippets into collection pages. Built with Shopify API, React.JS, and
-              Node.JS on Google Cloud Platform.
-            </p>
+            <p>A Shopify embedded app for inserting blog snippets into collection pages.</p>
           </div>
         </article>
+      </div>
+
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01" />
+        <div id="caption"></div>
       </div>
     </section>
 
@@ -139,5 +143,7 @@
     </section>
 
     <footer class="dimmed">2020-2021 &copy; Louis Coulet</footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

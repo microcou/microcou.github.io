@@ -40,7 +40,7 @@ a {
 
 header,
 section {
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 header {
@@ -81,7 +81,7 @@ header img {
 .projects article {
   display: flex;
   flex-wrap: wrap-reverse;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .projects article img {
@@ -104,6 +104,6 @@ header img {
 }
 
 footer {
-  margin-top: 16rem;
+  margin-top: 10rem;
   text-align: center;
 }
