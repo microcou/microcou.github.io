@@ -6,6 +6,7 @@ article > img {
 
 article > img:hover {
   opacity: 0.7;
+  transform: scale(1.02);
 }
 
 /* The Modal (background) */
