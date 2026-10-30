@@ -5,7 +5,11 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    background-color: #fefefb;
+    color: #444;
+}
+
+h1, h2, strong {
+  color: #333;
 }
 
 main {
@@ -19,19 +23,11 @@ h2 {
     padding-top: 1em;
 }
 
-body {
-    color: #444;
-}
-
-h1, h2, strong {
-  color: #333;
-}
-
 footer {
-    color: #cfcfcf;
+    color: #ccc;
     position: fixed;
     bottom: 0;
-    right: 1em;
+    right: 4px;
 }
 
 .unstyled-list {
