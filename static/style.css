@@ -33,3 +33,10 @@ footer {
     bottom: 0;
     right: 1em;
 }
+
+.unstyled-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
